@@ -1,0 +1,10 @@
+configure
+ip dhcp snooping
+ip dhcp snooping vlan 1
+interface gigabitethernet 1/1
+ ip dhcp snooping trust
+interface gigabitethernet 1/2
+ ip dhcp snooping limit 10
+ip arp inspection vlan 1
+end
+copy running-config startup-config

@@ -1,0 +1,12 @@
+conf t
+ip dhcp snooping
+ip dhcp snooping vlan 1
+no ip dhcp snooping information option
+interface fastEthernet 0/1
+ip dhcp snooping trust
+interface fastEthernet 0/2
+ip dhcp snooping limit rate 10
+interface range fastEthernet0/1-2
+ip arp inspectuin trust
+end
+write memory
