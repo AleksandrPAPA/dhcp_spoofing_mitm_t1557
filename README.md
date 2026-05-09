@@ -217,7 +217,7 @@ MikroTik 80% 1858 мс +6.9% +21.7%
 - [MITRE ATT&CK T1557.003 — Adversary-in-the-Middle: DHCP Spoofing](https://attack.mitre.org/techniques/T1557/003/)
 - [Cisco DHCP Snooping Configuration Guide (IOS 15.0)](https://www.cisco.com/en/US/docs/general/Test/dwerblo/broken_guide/snoodhcp.html)
 - [Scapy — Packet manipulation tool (официальная документация)](https://scapy.readthedocs.io/)
-- [MikroTik RouterOS — DHCP Snooping / Bridge Filter Documentation](https://help.mikrotik.com/docs/display/ROS/Bridge)
+- [MikroTik RouterOS — DHCP Snooping / Bridge Filter Documentation](https://help.mikrotik.com/docs/spaces/ROS/pages/328068/Bridging+and+Switching)
 - [ALT Linux Server — документация по настройке сети](https://www.altlinux.org/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0_%D1%81%D0%B5%D1%82%D0%B8)
 - [Eltex — руководство пользователя (DHCP Snooping)](https://docs.eltex-co.ru/pages/viewpage.action?pageId=98926668)
 
