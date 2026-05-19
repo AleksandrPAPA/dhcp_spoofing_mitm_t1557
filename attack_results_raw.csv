@@ -1,61 +1,91 @@
-run,protection_status,vendor,attack_success,detection_time_ms,cpu_delta_percent,latency_ms,timestamp
-1,off,cisco,True,0,0,1.07,1777636086.4538457
-2,off,cisco,True,0,0,1.26,1777636086.5040936
-3,off,cisco,True,0,0,1.16,1777636086.555393
-4,off,cisco,True,0,0,1.24,1777636086.605656
-5,off,cisco,True,0,0,1.18,1777636086.655989
-6,off,cisco,True,0,0,1.07,1777636086.7061844
-7,off,cisco,True,0,0,1.12,1777636086.7563264
-8,off,cisco,True,0,0,1.08,1777636086.8064938
-9,off,cisco,True,0,0,1.12,1777636086.8613603
-10,off,cisco,True,0,0,1.23,1777636086.9116054
-11,on,cisco,False,438,3,1.35,1777636086.9623537
-12,on,cisco,False,414,2,1.32,1777636087.0126402
-13,on,cisco,False,380,2,1.37,1777636087.0641086
-14,on,cisco,False,426,4,1.39,1777636087.1174583
-15,on,cisco,False,389,3,1.32,1777636087.167643
-16,on,cisco,False,443,4,1.34,1777636087.2178886
-17,on,cisco,False,436,3,1.36,1777636087.2680345
-18,on,cisco,False,438,2,1.35,1777636087.3182037
-19,on,cisco,False,416,4,1.32,1777636087.3683515
-20,on,cisco,False,395,3,1.37,1777636087.4186203
-1,off,eltex,True,0,0,1.12,1777636087.4688394
-2,off,eltex,True,0,0,1.15,1777636087.5189745
-3,off,eltex,True,0,0,1.11,1777636087.5693166
-4,off,eltex,True,0,0,1.02,1777636087.6195211
-5,off,eltex,True,0,0,1.25,1777636087.6697595
-6,off,eltex,True,0,0,1.18,1777636087.7199984
-7,off,eltex,True,0,0,1.07,1777636087.7703223
-8,off,eltex,True,0,0,1.14,1777636087.8205588
-9,off,eltex,True,0,0,1.17,1777636087.8707082
-10,off,eltex,True,0,0,1.27,1777636087.92088
-11,on,eltex,False,637,5,1.31,1777636087.9710395
-12,on,eltex,False,663,4,1.36,1777636088.0215364
-13,on,eltex,False,687,6,1.33,1777636088.0724275
-14,on,eltex,False,671,5,1.39,1777636088.1227162
-15,on,eltex,False,654,4,1.37,1777636088.1730604
-16,on,eltex,False,628,6,1.33,1777636088.223346
-17,on,eltex,False,690,4,1.33,1777636088.2735474
-18,on,eltex,False,653,6,1.36,1777636088.3240516
-19,on,eltex,False,646,5,1.31,1777636088.374306
-20,on,eltex,False,620,6,1.36,1777636088.4247391
-1,off,mikrotik,True,0,0,1.05,1777636088.4765801
-2,off,mikrotik,True,0,0,1.11,1777636088.5267906
-3,off,mikrotik,True,0,0,1.09,1777636088.577059
-4,off,mikrotik,True,0,0,1.27,1777636088.6273513
-5,off,mikrotik,True,0,0,1.15,1777636088.677486
-6,off,mikrotik,True,0,0,1.21,1777636088.7277641
-7,off,mikrotik,True,0,0,1.24,1777636088.7786388
-8,off,mikrotik,True,0,0,1.26,1777636088.828795
-9,off,mikrotik,True,0,0,1.26,1777636088.8789287
-10,off,mikrotik,True,0,0,1.07,1777636088.9305346
-11,on,mikrotik,True,0,0,1.13,1777636088.9808567
-12,on,mikrotik,False,1789,8,1.59,1777636089.0310812
-13,on,mikrotik,True,0,0,1.16,1777636089.0814035
-14,on,mikrotik,False,1975,8,1.52,1777636089.1323133
-15,on,mikrotik,False,2002,9,1.47,1777636089.1824732
-16,on,mikrotik,False,1799,8,1.51,1777636089.2326298
-17,on,mikrotik,False,1896,9,1.44,1777636089.2827818
-18,on,mikrotik,False,1806,9,1.56,1777636089.333
-19,on,mikrotik,False,1795,8,1.44,1777636089.3832648
-20,on,mikrotik,False,1800,10,1.53,1777636089.4338188
+run,vendor,is_blocked,detection_time_ms,cpu_delta_percent,latency_ms
+1,Cisco 2960,True,436,3,1.34
+2,Cisco 2960,True,419,3,1.38
+3,Cisco 2960,True,397,3,1.31
+4,Cisco 2960,True,408,2,1.31
+5,Cisco 2960,True,434,4,1.36
+6,Cisco 2960,True,396,2,1.39
+7,Cisco 2960,True,397,2,1.4
+8,Cisco 2960,True,407,3,1.35
+9,Cisco 2960,True,428,3,1.34
+10,Cisco 2960,True,384,3,1.38
+11,Cisco 2960,True,406,4,1.36
+12,Cisco 2960,True,404,2,1.39
+13,Cisco 2960,True,401,3,1.35
+14,Cisco 2960,True,419,4,1.37
+15,Cisco 2960,True,438,3,1.3
+16,Cisco 2960,True,400,3,1.32
+17,Cisco 2960,True,412,2,1.31
+18,Cisco 2960,True,437,4,1.33
+19,Cisco 2960,True,397,4,1.32
+20,Cisco 2960,True,427,3,1.39
+21,Cisco 2960,True,450,4,1.34
+22,Cisco 2960,True,436,2,1.37
+23,Cisco 2960,True,389,4,1.38
+24,Cisco 2960,True,403,4,1.3
+25,Cisco 2960,True,400,3,1.35
+26,Cisco 2960,True,408,3,1.38
+27,Cisco 2960,True,398,4,1.37
+28,Cisco 2960,True,427,4,1.32
+29,Cisco 2960,True,395,3,1.38
+30,Cisco 2960,True,422,3,1.35
+1,Eltex MES1428,True,626,5,1.31
+2,Eltex MES1428,True,611,6,1.35
+3,Eltex MES1428,True,637,4,1.38
+4,Eltex MES1428,True,678,4,1.34
+5,Eltex MES1428,False,0,0,1.16
+6,Eltex MES1428,True,664,6,1.38
+7,Eltex MES1428,True,615,5,1.38
+8,Eltex MES1428,True,628,4,1.37
+9,Eltex MES1428,True,651,5,1.37
+10,Eltex MES1428,True,661,4,1.36
+11,Eltex MES1428,True,626,4,1.31
+12,Eltex MES1428,True,667,6,1.38
+13,Eltex MES1428,True,687,6,1.32
+14,Eltex MES1428,True,687,4,1.38
+15,Eltex MES1428,True,639,5,1.4
+16,Eltex MES1428,True,664,4,1.37
+17,Eltex MES1428,True,677,6,1.4
+18,Eltex MES1428,True,698,5,1.33
+19,Eltex MES1428,True,619,4,1.4
+20,Eltex MES1428,False,0,0,1.19
+21,Eltex MES1428,True,614,6,1.31
+22,Eltex MES1428,True,617,6,1.31
+23,Eltex MES1428,True,665,5,1.35
+24,Eltex MES1428,True,629,6,1.37
+25,Eltex MES1428,True,688,5,1.32
+26,Eltex MES1428,True,693,5,1.38
+27,Eltex MES1428,True,621,5,1.33
+28,Eltex MES1428,True,699,6,1.39
+29,Eltex MES1428,True,628,6,1.34
+30,Eltex MES1428,True,676,6,1.31
+1,MikroTik RouterOS,False,0,0,1.18
+2,MikroTik RouterOS,True,1810,10,1.5
+3,MikroTik RouterOS,True,1840,10,1.48
+4,MikroTik RouterOS,True,1823,10,1.52
+5,MikroTik RouterOS,True,1965,10,1.57
+6,MikroTik RouterOS,True,1943,11,1.59
+7,MikroTik RouterOS,True,1824,11,1.42
+8,MikroTik RouterOS,False,0,0,1.22
+9,MikroTik RouterOS,True,1784,11,1.59
+10,MikroTik RouterOS,False,0,0,1.26
+11,MikroTik RouterOS,True,1938,11,1.52
+12,MikroTik RouterOS,True,1801,8,1.42
+13,MikroTik RouterOS,True,1820,8,1.41
+14,MikroTik RouterOS,True,1999,8,1.56
+15,MikroTik RouterOS,False,0,0,1.18
+16,MikroTik RouterOS,True,2009,8,1.54
+17,MikroTik RouterOS,True,1886,10,1.52
+18,MikroTik RouterOS,True,1864,9,1.48
+19,MikroTik RouterOS,False,0,0,1.27
+20,MikroTik RouterOS,False,0,0,1.18
+21,MikroTik RouterOS,False,0,0,1.23
+22,MikroTik RouterOS,False,0,0,1.15
+23,MikroTik RouterOS,True,1946,8,1.42
+24,MikroTik RouterOS,True,1932,11,1.57
+25,MikroTik RouterOS,True,1794,8,1.43
+26,MikroTik RouterOS,True,1921,9,1.43
+27,MikroTik RouterOS,True,1919,11,1.59
+28,MikroTik RouterOS,True,1999,9,1.56
+29,MikroTik RouterOS,True,1964,8,1.41
+30,MikroTik RouterOS,True,1821,11,1.53
