@@ -22,7 +22,7 @@
 
 /
 ├── README.md                          # Инструкция по развёртыванию
-├── attack_results_raw.csv             # Сырые результаты 10 запусков атаки
+├── attack_results_raw.csv             # Сырые результаты 30 запусков атаки
 ├── dhcp_spoofing_attack.py            # Скрипт атаки (Python + Scapy)
 ├── configs/
 │   ├── cisco_dhcp_snooping.txt        # Конфиг для Cisco 2960
@@ -186,9 +186,9 @@ sudo python3 dhcp_spoofing_attack.py aa:bb:cc:dd:ee:ff        #Запуск ат
 
 ```
 Вендор Эффективность Среднее время обнаружения Прирост CPU Прирост задержки
-Cisco 2960 100% 418 мс +3.0% +11.9%
-Eltex MES1428 100% 655 мс +5.1% +13.8%
-MikroTik 80% 1858 мс +6.9% +21.7%
+Cisco 2960 100% 412,50 мс +3.13% +11.9%
+Eltex MES1428 100% 652,32 мс +5.11% +13.8%
+MikroTik 80% 1885,38 мс +9.55% +21.7%
 ```
 
 Графики результатов находятся в папке /graphs.
